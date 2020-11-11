@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:lightyellow;
+}
+
+
+  .text-quote{
+      margin-top:100px;
+  }
+  .header{
+      background: radial-gradient(#fff, #e7e6eb);
+  }
+  .header .row{
+      margin-top:70px;
+  }
+
+  .categories{
+      margin: 70px 0;
+  }
+  .col-3{
+      flex-basis: 30%;
+      min-width: 250px;
+      margin-bottom: 30px;
+  }
+  .col-3 img{
+      width: 100%;
+  }
+
+  .title{
+      text-align: center;
+      margin: 0 auto 80px;
+      position: relative;
+      line-height:60px;
+      color: #555;
+  }
+  .title::after{
+      content: '';
+      background: #e2a114;
+      width: 80px;
+      height: 5px;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform:translate(-100%);
+     
+}
+.rating .fa{
+    color: #e2a114;
+}
+.product-hover{
+    transition:.5s;
+}
+.product-hover:hover{
+ transform:translate(-3px);
+ 
+}
+.product-hover{
+    transform:translateY(-3px) ;
+}
+
+
+.footer{
+    background:#000;
+    color:#8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom:20px;
+}
+ul{
+    list-style-type:none;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+
+.feature-row{
+    justify-content: space-between;
+    
+}
+.focus:hover{
+    border: 1px solid gray;
+    background: #98979a;
+}
+.page-btn{
+    margin: 0  auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #98979a;
+    margin-left:10px;width:40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #0069d9;
+    color: #fff;
+}
+.single-product hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.single-product h4{
+    margin:15px 0;
+    font-size: 22px;font-weight: bold;
+}
+.single-product select{
+    margin:20px;
+    margin-top:20px;
+}
+.single-product input {
+    width:40px;
+    height:30px;
+    padding-left:10px;
+    font-size:20px;
+    margin-right: 10px;
+    border:1px solid gray;
+}
+input:focus{
+    outline:none;
+}
+.small-img-row{
+    display: flex;
+    justify-content:space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+td img{
+    width: 150px;
+    height: 150px;
+    margin-left:10px;
+}
+td input{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+.total-price{
+    display: flex;
+    justify-content:flex-end;
+}
+.total-price table{
+    border-top: 3px solid gray;
+    width:100%;
+    max-width: 350px;
+}
+td:last-child{
+    text-align:center;
+}
+tr:first-child{
+    text-align:center;
+}
+tr:nth-child(2){
+    text-align:center;
+}
+tr:last-child{
+    text-align:center;
+}
+
+.account-page{
+   
+    padding: 50px 0;
+}
+.form-container{
+    background: lightgreen;
+    width:300px;
+    height: 400px;
+    position:relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width:100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top:130px;
+    transition: transform 1s;
+    
+}
+form input{
+    width:100%;
+    height:30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid gray;
+}
+
+form .btn{
+    width: 100%;
+    border: none;
+    cursor:pointer;
+    margin: 10px 0;
+}
+
+form .btn:focus{
+    outline: none;
+}
+
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+#Indicator{
+    width:100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+.checkout{
+    overflow: hidden;
+}
+
+.shop{
+    color:#e2a114;
+}
+.image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .select:hover .image {
+    opacity: 0.3;
+  }

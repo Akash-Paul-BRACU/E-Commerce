@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="ecommerce-logo-design.png" alt="" height="50px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link ml-5" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-5" href="products.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-5" href="about.html">About</a>
+          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link ml-5" href="account.html">Account</a>
+            </li>
+            <li>
+              <a class="nav-link ml-5" href="cart.html">Cart<img src="pictures/cart.png" alt="pic" width="30px" height="30px" /></a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+
+<!-----Single Product Details------------------------------------->
+<div class="single-product">
+<div class="container">
+    <div class="row">
+        <div class="col-4 categories">
+            <img src="pictures/demo1.jpg" alt="" width="100%" id="ProductImg">
+            <div class="small-img-row">
+                <div class="small-img-col " >
+                    <img src="pictures/b2.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="pictures/b3.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="pictures/b4.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="pictures/b5.jpg" alt="" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="col-6 categories">
+            <h1>Stylish Formal Shirt</h1>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <h4>&#2547;1000</h4>
+            <hr>
+            <h3>Description : <i class="fa fa-indent"></i></h3>
+            <p>Gray self-design formal shirt, has a spread collar, long sleeves, button placket, straight hem, and 1 patch pocket</p>
+            
+            <select>
+                <option>Select Size</option>
+                <option>Extra Large(XL)</option>
+                <option>Medium(M)</option>
+                <option>Small(S)</option>
+            </select>
+        <input type="number" value="1"> <br>
+        <button class="btn btn-primary my-5 ml-4">Add to Cart</button>
+        <button class="btn btn-dark ml-3">&laquo; Home</button>
+    </div>
+</div>
+</div>
+</div>
+
+<!---------Featured Products------>
+
+
+    <div class="container">
+        <h1 class="my-5 title">Related Products</h1>
+        <div class="row">
+        <div class="card-deck categories">
+            <div class="card product-hover" data-aos="fade-right">
+              <img class="card-img-top" src="pictures/product1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button class="btn btn-success">View</button>
+                <button class="btn btn-primary">Add to Cart</button>
+                <p class="font-weight-bold my-3">Price: &#2547;500</p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+            </div>
+             
+              <div class="card-footer">
+                <small class="text-muted">Last updated 10 mins ago</small>
+              </div>
+            </div>
+            <div class="card product-hover" data-aos="fade-down">
+              <img class="card-img-top" src="pictures/product2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button class="btn btn-success">View</button>
+                <button class="btn btn-primary">Add to Cart</button>
+                <p class="font-weight-bold my-3">Price: &#2547;800</p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    
+                </div>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 5 mins ago</small>
+              </div>
+            </div>
+            <div class="card product-hover" data-aos="fade-left">
+              <img class="card-img-top" src="pictures/product3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button class="btn btn-success">View</button>
+                <button class="btn btn-primary">Add to Cart</button>
+                <p class="font-weight-bold my-3">Price: &#2547;1000</p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+            </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+
+    
+
+<!-------------------------------Footer---------------------->
+
+
+<div class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 col-12 text-center">
+              <h2>Download Our Apps</h2>
+              <p>We are available on playStore. Search our Products. We are providing the best service</p>
+          </div>
+          <div class="footer-col-2 col-md-4 col-12 text-center">
+              <img src="ecommerce-logo-design.png" alt="">
+              <p>Telephone: 031-968642</p>
+              <p>Email: e-product@gmail.com</p>
+              <p>Working Hour:10am-6pm</p>
+          
+          </div>
+          <div class="footer-col-3 col-md-4 col-12 text-center">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Github</li>
+                
+            </ul>
+          </div>
+      </div>
+      <hr>
+      <p class="copyright text-center">Copyright 2020- Akash</p>
+  </div>
+</div>
+
+    <!------Js function for gallery------>
+
+    <script>
+        var ProductImg = document.getElementById('ProductImg');
+        var SmallImg = document.getElementsByClassName('small-img');
+        
+        SmallImg[0].onclick = function() 
+        {
+            ProductImg.src =SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function() 
+        {
+            ProductImg.src =SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function() 
+        {
+            ProductImg.src =SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function() 
+        {
+            ProductImg.src =SmallImg[3].src;
+        }
+    </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 400,
+    duration:1000
+  });
+</script>
+
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+  </script>
+</body>
+</html>
